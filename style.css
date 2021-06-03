@@ -1,0 +1,11 @@
+/* .body {
+  background-color: red;
+} */
+.header-part {
+  background-color: chartreuse;
+}
+#image {
+  width: 10%;
+  height: 10%;
+  justify-self: left;
+}
