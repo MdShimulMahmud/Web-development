@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1a202c;
+  font-family: fantasy;
+  color: white;
+}
+.container {
+  background-color: #333;
+  padding: 10px;
+  margin: 0 auto; /*centralized container*/
+  max-width: 1200px;
+  /*max-height: 120px;*/
+}
+.image-part {
+  float: left;
+  padding: 20px;
+  border: solid 2px white;
+  border-radius: 50%;
+  height: 150px;
+  width: 120px;
+}
+.header-info {
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.header-div {
+  float: left;
+  font-family: cursive;
+  font-size: 20px;
+  color: #999;
+  background-color: none;
+  padding: 10px;
+  margin: 20px;
+}
+.information {
+  float: right;
+  padding: 10px;
+  margin: 20px;
+}
+.information p {
+  font-family: cursive;
+  font-size: 20px;
+}
+.information a {
+  text-decoration: none;
+  color: dimgray;
+}
+.information a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+hr {
+  border: solid 5px dimgray;
+  margin: 0 auto;
+}
+
+.clear-div {
+  clear: both;
+}
+
+/*---- content section------*/
+
+.content-section {
+  margin-bottom: 30px;
+}
+.content-left {
+  float: left;
+  width: 30%; /*change here to reszie text alignment*/
+  text-align: left;
+  font-family: cursive;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.content-right {
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 20px;
+  font-size: 20px;
+  word-spacing: 0.2em;
+  line-height: 1.5em;
+  float: right;
+  font-family: cursive;
+  width: 70%; /*change here to reszie text alignment*/
+}
+
+.content-right-left {
+  color: gray;
+  float: left;
+  padding-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.content-right-third {
+  color: gray;
+  float: left;
+  padding-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.content-right-right {
+  color: gray;
+  float: left;
+  padding-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.common-hr {
+  border: solid 2px black;
+  margin: 0 auto;
+}
+.article-hr {
+  border: solid 2px goldenrod;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.content-left h2 {
+  margin-left: 10px;
+}
+.footer-part {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  color: gray;
+  padding: 10px;
+  margin: 0 auto;
+}
