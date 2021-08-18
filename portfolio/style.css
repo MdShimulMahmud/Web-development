@@ -1,0 +1,234 @@
+body {
+  margin: 10px;
+  padding: 0;
+  background: grey;
+}
+
+.navbar {
+  /* background-color: #333; */
+  width: 100%;
+  height: auto;
+  top: 0;
+  position: sticky;
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+  /* position: fixed; */
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 0;
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+.navbar ul li {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  list-style-type: none;
+  padding: 1.2rem;
+  display: inline-block;
+}
+.navbar ul li a {
+  color: dimgrey;
+  text-decoration: none;
+  margin: 5px auto;
+  padding: 10px;
+}
+.navbar ul li a:hover {
+  color: black;
+  border: 2px solid grey;
+  border-radius: 5%;
+  background-color: darkcyan;
+  transition: ease-in-out 0.4s;
+}
+.heading {
+  background-color: #f5f;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 30px;
+  color: #fff;
+}
+
+.container {
+  background-color: red;
+  grid-template-areas: "about-section1 about-section1 about-section2";
+  display: grid;
+}
+.container1 {
+  background-color: red;
+  grid-template-areas: "about-section2 about-section2 about-section1";
+  display: grid;
+}
+.about-section1 {
+  box-sizing: border-box;
+  padding: 10px;
+  line-height: 1.5em;
+  border: solid 2px gray;
+}
+.about-section1 p {
+  margin: 0 auto;
+  padding: 5px;
+}
+.about-section2 {
+  background-color: grey;
+}
+.about-section2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: ".contact-me .send-message";
+}
+.send-message {
+  background-color: grey;
+  /* box-sizing: border-box; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: ".form-message .via-media";
+  border: solid black;
+}
+.form-message > form > div {
+  box-sizing: border-box;
+}
+
+.form-message {
+  display: flex;
+  flex-flow: column wrap;
+}
+.form-data {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 300px;
+}
+input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0.6rem;
+
+  border: 2px solid darkcyan;
+  border-radius: 3px;
+  width: 90%;
+  height: auto;
+}
+input[type="submit"],
+input[type="reset"] {
+  background: #f84098;
+  padding: 10px;
+  margin: 0.6rem;
+  border: 2px solid darkcyan;
+  border-radius: 3px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background: #eee;
+}
+#message {
+  width: 90%;
+  min-height: 100px;
+}
+footer h3 {
+  text-align: center;
+  color: #eee;
+}
+
+.form-message {
+  box-sizing: border-box;
+  box-shadow: 5px 2px 6px white;
+  border: 0px solid red;
+}
+
+.social-media {
+  box-sizing: border-box;
+}
+.social-media li {
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+}
+.media li a {
+  color: greenyellow;
+  padding: 10px;
+  text-decoration: none;
+}
+.media li a:hover {
+  background-color: blue;
+  border-radius: 5%;
+  transition: 1s;
+}
+
+.contact-me {
+  margin: 0 auto;
+  padding: 10px;
+  background: grey;
+  line-height: 1.5em;
+}
+
+.projects-section {
+  background: url("/image/back3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  grid-gap: 10px;
+}
+.items1,
+.items2,
+.items3,
+.items4,
+.items5,
+.items6 {
+  box-sizing: border-box;
+  border: 2px solid darkcyan;
+}
+.items1 {
+  grid-column: 1/ 3;
+}
+.items2 {
+  grid-column: 3/ 5;
+}
+.items3 {
+  grid-column: 5/7;
+}
+.items4 {
+  grid-column: 1/ 3;
+}
+.items5 {
+  grid-column: 3/ 5;
+}
+.items6 {
+  grid-column: 5/7;
+}
+.image-box {
+  box-sizing: border-box;
+}
+.items1 img,
+.items2 img,
+.items3 img {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.items4 img,
+.items5 img,
+.items6 img {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.image-text {
+  text-align: center;
+  text-shadow: 10px 5px 5px red;
+}
