@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      :root {
+        --bgcolor: grey;
+        --boder-color: white;
+      }
+      body {
+        background-color: var(--bgcolor);
+      }
+      * {
+        box-sizing: border-box;
+        /* margin: 10px 10px; */
+      }
+      .container {
+        margin: 0 auto;
+        display: float;
+      }
+      .gallery {
+        background-color: none;
+        width: 23.5%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        float: left;
+        padding: 10px;
+        margin: 10px 10px;
+      }
+      .gallery:hover {
+        border: 5px solid rgba(200, 250, 0, 255);
+      }
+      .gallery-text {
+        padding: 5px;
+        text-align: center;
+      }
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      .clear {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .gallery {
+          display: block;
+          width: 47%;
+        }
+      }
+      @media only screen and (max-width: 560px) {
+        .gallery {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="dove.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="lake.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="flyingdove.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="seabeach.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="hill.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="xyz.png" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="xyz.png" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="#"> <img src="dove.jpg" alt="photos of shimul" /></a>
+        <div class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          nesciunt?
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </body>
+</html>
